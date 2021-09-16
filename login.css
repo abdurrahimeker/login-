@@ -1,0 +1,77 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+body{
+	background-image: linear-gradient(45deg,#616161,black);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;	
+}
+
+.kayıt{
+	width: 140px;
+	height: 25px;
+	text-align: center;
+	padding-top:10%;
+	border-radius: 5px;
+	margin: auto;
+	position: relative;
+	top: -95%;
+	font-size:30px;
+	color: white;
+	letter-spacing: 10px;
+	
+}
+.loginblok input[type="text"]{
+	width: 200px;
+	height: 50px;
+	position: relative;
+	top: 55px;
+	margin: auto;
+	border-radius: 15px;
+	margin-top: 10px;
+	margin-left: -30px;
+	text-align: center;
+	text-decoration: rgba(255, 0, 0, 0);
+	opacity: 0.8;
+	letter-spacing:2px ;
+	font-weight: bold;
+}
+.loginblok input[type="email"],input[type="number"],input[type="password"]{
+	width: 200px;
+	height: 50px;
+	position: relative;
+	top: 55px;
+	margin: auto;
+	text-align: center;
+	border-radius: 15px;	
+	margin-top: 10px;
+	margin-left: -30px;
+	opacity: 0.8;
+	letter-spacing:2px ;
+	font-weight: bold;
+}
+.loginblok input[type=submit]{
+	width: 140px;
+	height: 50px;
+	position: relative;
+	top: 120px;
+	border-radius: 10px;
+	margin: auto;
+	font-size: 20px;
+	text-align: center;
+	margin-left: -px;
+	color: white;
+	background-color: black;
+	border: none;
+	opacity: 0.6;
+}
+.img{
+	width: 40%;
+	height: auto;
+	margin-left:30%;
+	margin-top:15%;
+	border-radius:20px;
+}
